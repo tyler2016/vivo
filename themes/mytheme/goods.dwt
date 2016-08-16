@@ -9,12 +9,12 @@
     <meta name="description" content='{$goods.goods_style_name}'/>
  
 
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/global_71f64cd.css" rel="stylesheet" type="text/css"/>
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/layout_d6fdcac.css" rel="stylesheet" type="text/css"/>
+    <link href="css/01.css" rel="stylesheet" type="text/css"/>
+    <link href="css/02.css" rel="stylesheet" type="text/css"/>
 
 
-<link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/web-page/prod-detail_e5b5bbf.css" rel="stylesheet" type="text/css" />
-<link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/dialog/dialog_523c50b.css" rel="stylesheet" type="text/css"/>
+<link href="css/07.css" rel="stylesheet" type="text/css" />
+<link href="css/03.css" rel="stylesheet" type="text/css"/>
 <style>
     .no_store{background:#ccc;border:1px solid #ccc;}
     em{font-style: italic}
@@ -268,21 +268,21 @@
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery/dist/jquery.min_6163309.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-cookie/jquery.cookie_a5283b2.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery_lazyload/jquery.lazyload_546c1da.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-common_66b10ca.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-stat_0d0d375.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/common/login_confirm_485e7b4.js"></script>
+<script src="js/01.js"></script>
+<script src="js/02.js"></script>
+<script src="js/03.js"></script>
+<script src="js/04.js"></script>
+<script src="js/05.js"></script>
+<script src="js/06.js"></script>
 <script>
     var imgHost = "https://swsdl.vivo.com.cn/vivoshop/";
     var skuImageJsonStr = '([{"bigPic":"commodity/98/4098_1470733254114_530x530.png","imageNo":"1470733254114","skuId":"4098","smallPic":"commodity/98/4098_1470733254114_250x250.png","thumbnailPic":"commodity/98/4098_1470733254114_100x100.png"},{"bigPic":"commodity/98/4098_1470733254649_530x530.png","imageNo":"1470733254649","skuId":"4098","smallPic":"commodity/98/4098_1470733254649_250x250.png","thumbnailPic":"commodity/98/4098_1470733254649_100x100.png"},{"bigPic":"commodity/98/4098_1470733255019_530x530.png","imageNo":"1470733255019","skuId":"4098","smallPic":"commodity/98/4098_1470733255019_250x250.png","thumbnailPic":"commodity/98/4098_1470733255019_100x100.png"}])';
     var skuImageJson = eval(skuImageJsonStr);
 </script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/simpleStorage/simpleStorage_f115cd4.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/product/view_ef7b2a3.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/product/view-hist_823c137.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/dialog/dialog_6a2b3fb.js" type="text/javascript"></script>
+<script src="js/08.js"></script>
+<script src="js/12.js"></script>
+<script src="js/13.js"></script>
+<script src="js/10.js" type="text/javascript"></script>
 
 <script>
     //百度统计代码

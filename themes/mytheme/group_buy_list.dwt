@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
@@ -10,14 +7,13 @@
     <title>vivo智能手机官方商城</title>
     <meta name="keywords" content='vivo智能手机官方商城'/>
     <meta name="description" content='vivo智能手机官方商城'/>
-    <link rel="shortcut icon" href="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/favicon_7761e1f.ico">
+    
+    <link href="css/01.css" rel="stylesheet" type="text/css"/>
+    <link href="css/02.css" rel="stylesheet" type="text/css"/>
 
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/global_71f64cd.css" rel="stylesheet" type="text/css"/>
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/layout_d6fdcac.css" rel="stylesheet" type="text/css"/>
 
-
-<link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/dialog/dialog_523c50b.css" rel="stylesheet" type="text/css"/>
-<link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/web-page/vcoins-list_b3955a5.css" rel="stylesheet" type="text/css"/>
+<link href="css/03.css" rel="stylesheet" type="text/css"/>
+<link href="css/04.css" rel="stylesheet" type="text/css"/>
 
     <!--[if lt IE 9]>
     <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
@@ -137,20 +133,20 @@
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery/dist/jquery.min_6163309.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-cookie/jquery.cookie_a5283b2.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery_lazyload/jquery.lazyload_546c1da.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-common_66b10ca.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-stat_0d0d375.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/common/login_confirm_485e7b4.js"></script>
+<script src="js/01.js"></script>
+<script src="js/02.js"></script>
+<script src="js/03.js"></script>
+<script src="js/04.js"></script>
+<script src="js/05.js"></script>
+<script src="js/06.js"></script>
 <script>
     var imgHost = "https://swsdl.vivo.com.cn/vivoshop/";
 </script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-validation/dist/jquery.validate.min_76c74f2.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/simpleStorage/simpleStorage_f115cd4.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/product/list-hover_a2668cb.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/dialog/dialog_6a2b3fb.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/vcoins/index_1a13f39.js"></script>
+<script src="js/07.js"></script>
+<script src="js/08.js"></script>
+<script src="js/09.js"></script>
+<script src="js/10.js"></script>
+<script src="js/11.js"></script>
 
 <script>
     //百度统计代码

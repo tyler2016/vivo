@@ -8,8 +8,8 @@
     <meta name="keywords" content='帮助中心'/>
     <meta name="description" content='帮助中心'/>
 
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/global_71f64cd.css" rel="stylesheet" type="text/css"/>
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/layout_d6fdcac.css" rel="stylesheet" type="text/css"/>
+    <link href="css/01.css" rel="stylesheet" type="text/css"/>
+    <link href="css/02.css" rel="stylesheet" type="text/css"/>
 
 
 <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/web-page/help/help-service-promise_2895df3.css" rel="stylesheet" type="text/css" />
@@ -219,12 +219,12 @@
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery/dist/jquery.min_6163309.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-cookie/jquery.cookie_a5283b2.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery_lazyload/jquery.lazyload_546c1da.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-common_66b10ca.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-stat_0d0d375.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/common/login_confirm_485e7b4.js"></script>
+<script src="js/01.js"></script>
+<script src="js/02.js"></script>
+<script src="js/03.js"></script>
+<script src="js/04.js"></script>
+<script src="js/05.js"></script>
+<script src="js/06.js"></script>
     <script>
         //高亮“服务”主导航
         VIVO_UI.HighLightNav(3);

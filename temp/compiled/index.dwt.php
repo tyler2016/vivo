@@ -9,12 +9,12 @@
     <meta name="keywords" content='vivo智能手机官方商城'/>
     <meta name="description" content='vivo智能手机官方商城'/>
 
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/global_71f64cd.css" rel="stylesheet" type="text/css"/>
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/layout_d6fdcac.css" rel="stylesheet" type="text/css"/>
+    <link href="themes/mytheme/css/01.css" rel="stylesheet" type="text/css"/>
+    <link href="themes/mytheme/css/02.css" rel="stylesheet" type="text/css"/>
 
 
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/dialog/dialog_523c50b.css" rel="stylesheet" type="text/css">
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/web-page/home_74c36ad.css" rel="stylesheet" type="text/css"/>
+    <link href="themes/mytheme/css/03.css" rel="stylesheet" type="text/css">
+    <link href="themes/mytheme/css/06.css" rel="stylesheet" type="text/css"/>
 
     <!--[if lt IE 9]>
     <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
@@ -129,6 +129,20 @@
 </div>
 </div>
 <?php echo $this->fetch('library/page_footer.lbi'); ?>
+<script>
+    var webCtx = "";
+    var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
+</script>
+<script src="js/01.js"></script>
+<script src="js/02.js"></script>
+<script src="js/03.js"></script>
+<script src="js/04.js"></script>
+<script src="js/05.js"></script>
+<script src="js/06.js"></script>
+<script src="js/10.js"></script>
+<script src="js/07.js"></script>
+<script src="js/14.js"></script>
+<script src="js/15.js"></script>
 
 
 <script>

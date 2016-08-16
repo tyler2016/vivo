@@ -9,11 +9,11 @@
     <meta name="keywords" content='vivo智能手机官方商城'/>
     <meta name="description" content='vivo智能手机官方商城'/>
     
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/global_71f64cd.css" rel="stylesheet" type="text/css"/>
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/layout_d6fdcac.css" rel="stylesheet" type="text/css"/>
+    <link href="themes/mytheme/css/01.css" rel="stylesheet" type="text/css"/>
+    <link href="themes/mytheme/css/02.css" rel="stylesheet" type="text/css"/>
 
 
-    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/web-page/prod-list_1e6e0ae.css" rel="stylesheet" type="text/css" />
+    <link href="themes/mytheme/css/05.css" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
     <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
@@ -67,13 +67,13 @@
         </div></dl>
         <?php endif; ?>
 
-        <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_96179000_1471328802');if (count($_from)):
-    foreach ($_from AS $this->_var['filter_attr_0_96179000_1471328802']):
+        <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_76862300_1471361589');if (count($_from)):
+    foreach ($_from AS $this->_var['filter_attr_0_76862300_1471361589']):
 ?>
         <div class="f-line"><dl>
-            <dt class="fl-title fl-item"><?php echo htmlspecialchars($this->_var['filter_attr_0_96179000_1471328802']['filter_attr_name']); ?> :
+            <dt class="fl-title fl-item"><?php echo htmlspecialchars($this->_var['filter_attr_0_76862300_1471361589']['filter_attr_name']); ?> :
             </dt>
-            <?php $_from = $this->_var['filter_attr_0_96179000_1471328802']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
+            <?php $_from = $this->_var['filter_attr_0_76862300_1471361589']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
     foreach ($_from AS $this->_var['attr']):
 ?>
                 <?php if ($this->_var['attr']['selected']): ?>
@@ -100,13 +100,13 @@
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery/dist/jquery.min_6163309.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-cookie/jquery.cookie_a5283b2.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery_lazyload/jquery.lazyload_546c1da.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-common_66b10ca.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-stat_0d0d375.js"></script>
-<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/common/login_confirm_485e7b4.js"></script>
-    <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/product/list-hover_a2668cb.js"></script>
+<script src="js/01.js"></script>
+<script src="js/02.js"></script>
+<script src="js/03.js"></script>
+<script src="js/04.js"></script>
+<script src="js/05.js"></script>
+<script src="js/06.js"></script>
+<script src="js/09.js"></script>
 
 <script>
     //百度统计代码
