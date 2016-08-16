@@ -1,0 +1,27 @@
+<header id="header">
+    <div class="head-search">
+        <div class="search-box">
+        	<form action="/product/search" method="get"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x6" /><button type="submit">搜索</button></form><a class="close"></a>
+        </div>
+    </div>
+    <div class="wrapper">
+        <nav id="navigator" class="cl">
+        	<a href="/myecshop" class="vivo-logo"><img src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/tmp/vivo-logo_865fdf1.png" alt="vivo智能手机官方网站" /></a>
+            <ul class="cl">
+                <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+                    <li><a href="{$nav.url}" {if $nav.opennew eq 1} target="_blank" {/if} {if $nav.active eq 1} class="cur"{/if}>{$nav.name}<span></span></a></li>
+                <!-- {/foreach} -->
+            </ul>
+            
+            <div class="search-user">
+                <ul class="top-quick-menu">
+                    <li id="j_SearchTrigger" class="search"><a href="javascript:void(0)" rel="nofollow"><b></b></a></li>
+                    <li id="j_UserMenuTrigger">
+                    	<a href="/my/" class="user"><b></b></a>
+                    </li>
+                    <li><a href="/shoppingcart/" class="shoppingcart"><b></b><span class="shopcart-num">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>

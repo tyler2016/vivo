@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+    <title>vivo</title>
+    <meta name="keywords" content='vivo智能手机官方商城'/>
+    <meta name="description" content='vivo智能手机官方商城'/>
+    
+    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/global_71f64cd.css" rel="stylesheet" type="text/css"/>
+    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/layout_d6fdcac.css" rel="stylesheet" type="text/css"/>
+
+
+    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/web-page/prod-list_1e6e0ae.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 9]>
+    <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
+    <![endif]-->
+
+</head>
+<body class="">
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div id="content" class="cl">
+		<input type="hidden" name="pageNavMappingIndex" id="pageNavMappingIndex" value="0" />
+
+		<div class="wrapper">
+			<!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+        
+</div>
+
+
+	<div class="container wrapper">
+            <div class="filter">
+
+<!--组合搜索 开始-->
+    <!--{if $brands.1 || $price_grade.1 || $filter_attr_list}-->
+    
+        <!--{if $brands.1}-->
+        <div class="f-line"><dl>
+            <dt class="fl-title fl-item">{$lang.brand}：</dt>
+            <!--{foreach from=$brands item=brand}-->
+                <!-- {if $brand.selected} -->
+                <dd class="fl-item on"><a>{$brand.brand_name}</a></dd>
+                <!-- {else} -->
+                <dd class="fl-item"><a href="{$brand.url}">{$brand.brand_name}</a>&nbsp;</dd>
+                <!-- {/if} -->
+            <!--{/foreach}-->
+        </div></dl>
+        <!--{/if}-->
+
+        <!--{if $price_grade.1}-->
+        <div class="f-line"><dl>
+            <dt class="fl-title fl-item">{$lang.price}：</dt>
+            <!--{foreach from=$price_grade item=grade}-->
+                <!-- {if $grade.selected} -->
+                <dd class="fl-item on"><a>{$grade.price_range}</a></dd>
+                <!-- {else} -->
+                <dd class="fl-item"><a href="{$grade.url}">{$grade.price_range}</a>&nbsp;</dd>
+                <!-- {/if} -->
+            <!--{/foreach}-->
+        </div></dl>
+        <!--{/if}-->
+
+        <!--{foreach from=$filter_attr_list item=filter_attr}-->
+        <div class="f-line"><dl>
+            <dt class="fl-title fl-item">{$filter_attr.filter_attr_name|escape:html} :
+            </dt>
+            <!--{foreach from=$filter_attr.attr_list item=attr}-->
+                <!-- {if $attr.selected} -->
+                 <dd class="fl-item on"><a>{$attr.attr_value}</a></dd>
+                <!-- {else} -->
+                 <dd class="fl-item"><a href="{$attr.url}">{$attr.attr_value}</a>&nbsp;</dd>
+                <!-- {/if} -->
+            <!--{/foreach}-->
+        </div></dl>
+        <!--{/foreach}-->
+     </div>
+    <!-- {/if} -->
+<!--组合搜索 结束--> 
+
+		<div class="list-box">
+            <!-- #BeginLibraryItem "/library/goods_list.lbi" --><!-- #EndLibraryItem -->
+        </div>
+        <!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
+
+	</div>
+</div>
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+<script>
+    var webCtx = "";
+    var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
+</script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery/dist/jquery.min_6163309.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-cookie/jquery.cookie_a5283b2.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery_lazyload/jquery.lazyload_546c1da.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-common_66b10ca.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-stat_0d0d375.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/common/login_confirm_485e7b4.js"></script>
+    <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/product/list-hover_a2668cb.js"></script>
+
+<script>
+    //百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?0a38f90134ba281b974d46dfeec121e0";
+        hm.async = true;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

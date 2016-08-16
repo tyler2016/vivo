@@ -1,0 +1,10 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- {if $pictures}-->
+ 
+            <ul class="cl" id="smallImgUl">
+             <!-- {foreach from=$pictures item=picture}-->
+            <li><a href="#"><img src="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" class="B_blue" /></a>
+            </li>
+            <!--{/foreach}-->
+            </ul>
+<!-- {/if}-->

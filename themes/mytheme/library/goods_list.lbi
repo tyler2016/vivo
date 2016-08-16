@@ -1,0 +1,52 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="box">
+ <div class="box_1">
+  
+  <input type="hidden" name="category" value="{$category}" />
+  <input type="hidden" name="display" value="{$pager.display}" id="display" />
+  <input type="hidden" name="brand" value="{$brand_id}" />
+  <input type="hidden" name="price_min" value="{$price_min}" />
+  <input type="hidden" name="price_max" value="{$price_max}" />
+  <input type="hidden" name="filter_attr" value="{$filter_attr}" />
+  <input type="hidden" name="page" value="{$pager.page}" />
+  <input type="hidden" name="sort" value="{$pager.sort}" />
+  <input type="hidden" name="order" value="{$pager.order}" />
+  </form>
+
+  <!-- {if $category > 0} -->
+    <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
+  <!-- {/if} -->
+
+<!-- {if $pager.display == 'grid'} --> <ul class="prod-list cl"> 
+  <!--{foreach from=$goods_list item=goods}-->
+
+    <!-- {if $goods.goods_id} -->
+      <li class="prod-item ">
+        <a href="{$goods.url}">
+          <div class="figure">
+            <img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" />
+          </div>
+          <h3 title="{$goods.goods_name}">
+            {$goods.goods_name}
+          </h3>
+          <p class="price">
+          <!--{if $goods.promote_price neq "" } -->
+            {$lang.promote_price}<font class="shop_s">{$goods.promote_price}</font><br />
+          <!--{else}-->
+            {$lang.shop_prices}<font class="shop_s">{$goods.shop_price}</font><br />
+          <!--{/if}-->
+          </p>
+        </a>
+      </li>
+    <!--{/if}-->
+  <!--{/foreach}-->
+  </ul>
+<!-- {/if} -->
+  
+  <!-- {if $category > 0} -->
+  </form>
+  <!-- {/if} -->
+
+ </div>
+</div>
+<div style="clear:both"></div>

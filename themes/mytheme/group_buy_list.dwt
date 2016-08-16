@@ -1,0 +1,167 @@
+
+
+
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+    <title>vivo智能手机官方商城</title>
+    <meta name="keywords" content='vivo智能手机官方商城'/>
+    <meta name="description" content='vivo智能手机官方商城'/>
+    <link rel="shortcut icon" href="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/favicon_7761e1f.ico">
+
+    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/global_71f64cd.css" rel="stylesheet" type="text/css"/>
+    <link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/layout_d6fdcac.css" rel="stylesheet" type="text/css"/>
+
+
+<link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/dialog/dialog_523c50b.css" rel="stylesheet" type="text/css"/>
+<link href="https://swsdl.vivo.com.cn/vivoshop/web/dist/css/web-page/vcoins-list_b3955a5.css" rel="stylesheet" type="text/css"/>
+
+    <!--[if lt IE 9]>
+    <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
+    <![endif]-->
+
+</head>
+<body class="">
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div id="content" class="cl">
+
+<input type="hidden" name="pageNavMappingIndex" id="pageNavMappingIndex" value="2"/>
+<input type="hidden" class="j_queryParam" id="j_sortBy" name="sortBy" value=""/>
+<input type="hidden" class="j_queryParam" id="j_sortOrder" name="sortOrder" value="asc"/>
+<input type="hidden" class="j_queryParam" id="j_classify" name="classify" value="all"/>
+<input type="hidden" class="j_queryParam" id="j_needCheckVcoin" name="needCheckVcoin" value=""/>
+
+<div class="wrapper">
+     <!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+
+    <div class="banner">
+        <img width="100%" src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/vcoins/banner-vcoins_a945dbc.jpg"/>
+    </div>
+    <div class="container">
+
+        <div class="filter">
+            <div class="f-line title">
+                <h2>
+                    <i class="icon-gift"></i>全部礼品
+                </h2>
+            </div>
+            <div class="f-line">
+                <dl>
+                    <dt class="fl-title fl-item">分类：</dt>
+                    <dd data-classify="all"
+                        class="fl-item j_selectClassify on">
+                        全部
+                    </dd>
+                    <dd data-classify="cardcoupons"
+                        class="fl-item j_selectClassify">卡券商品
+                    </dd>
+                    <dd data-classify="normal"
+                        class="fl-item j_selectClassify">实物商品
+                    </dd>
+                </dl>
+            </div>
+            <div class="f-line sort">
+                <dl>
+                    <dt class="fl-title fl-item">排序：</dt>
+                    <dd data-sortBy=""
+                        class="fl-item j_selectOrder  on"><a>默认</a>
+                    </dd>
+                    <dd data-sortBy="vcoin"
+                        class="fl-item j_selectOrder
+                        ">
+                        <a>V币数</a><i class="icon-sort"></i></dd>
+                </dl>
+            </div>
+        </div>
+
+            <div class="list-box">
+                <ul class="prod-list cl">
+                    <!-- {if $gb_list} 如果有团购活动 -->
+                    <!-- {foreach from=$gb_list item=group_buy} 循环团购活动开始 -->
+                        <!-- {foreach from=$group_buy.price_ladder item=item} -->
+                        <li class="prod-item ">
+                        <a href="{$group_buy.url}">
+                        <div class="figure">
+                            <img src="{$group_buy.goods_thumb}" border="0" alt="{$group_buy.goods_name|escape:html}" style="vertical-align: middle" />
+                            <h3 title="{$group_buy.goods_name|escape:html}">V币兑换{$item.amount}元优惠券</h3>
+                            <p class="price"><span class="blue">{$item.formated_price}V币</span></p>
+                        </div>
+                        </a>
+                        </li>
+                        <!-- {/foreach} -->
+                    <!--{/foreach}-->
+                    <!-- {else} -->
+                   <span style="margin:2px 10px; font-size:14px; line-height:36px;">{$lang.group_goods_empty}</span>
+                  <!-- {/if} -->
+                </ul>
+            </div>
+
+
+        <div class="module-explain">
+            <h2><i class="icon-coins"></i>V币兑换规则</h2>
+            <dl>
+                <dt>获得V币</dt>
+                <dd>
+                    <p>1、在官方商城购买产品即可获得一定数量的V币，例如：您的订单商品总额为3498元，无论是否享受优惠，在订单完成后都可获得3498 V币；如果购买商品发生退货行为，官方商城将扣除您账户中对应数量的V币，账号若有退货未扣减的情况，未扣减部分V币为无效V币</p>
+                    <p>2、参加官方商城的相关活动获得V币</p>
+                </dd>
+                <dt>查看V币</dt>
+                <dd>
+                    <p>进入官方商城个人中心--我的V币</p>
+                </dd>
+                <dt>使用V币</dt>
+                <dd>
+                    <p>1、兑换优惠券，用于再次购物时，结算抵扣对应金额</p>
+                    <p>2、兑换礼品，V币兑换实物礼品均包邮；V币兑换的虚拟卡类请凭订单号联系在线客服领取</p>
+                    <p>3、V币订单提交支付之后，不支持退货处理，如果商品存在质量问题，请联系在线客服处理</p>
+                    <p>4、使用无效V币兑换的订单将作废处理，并在审核中扣除此部分V币</p>
+                </dd>
+                <dt>V币有效期</dt>
+                <dd>
+                    <p>1、官方商城个人中心的V币永久有效，但兑换的优惠券有一定的使用期限</p>
+                    <p>2、发生退货的V币，官方商城做扣除处理；对于恶意下单的用户账号，官方商城会计入黑名单，大批量恶意刷单，官方商城保留法律允许范围的追究权限</p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+</div>
+
+<!-- z-contain -->
+</div>
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+<script>
+    var webCtx = "";
+    var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
+</script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery/dist/jquery.min_6163309.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-cookie/jquery.cookie_a5283b2.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery_lazyload/jquery.lazyload_546c1da.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-common_66b10ca.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/vivo-stat_0d0d375.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/common/login_confirm_485e7b4.js"></script>
+<script>
+    var imgHost = "https://swsdl.vivo.com.cn/vivoshop/";
+</script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/jquery-validation/dist/jquery.validate.min_76c74f2.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/simpleStorage/simpleStorage_f115cd4.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/product/list-hover_a2668cb.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/common/dialog/dialog_6a2b3fb.js"></script>
+<script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/project/vcoins/index_1a13f39.js"></script>
+
+<script>
+    //百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?0a38f90134ba281b974d46dfeec121e0";
+        hm.async = true;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>
