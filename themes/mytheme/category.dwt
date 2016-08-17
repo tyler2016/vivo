@@ -26,8 +26,7 @@
 
 		<div class="wrapper">
 			<!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
-        
-</div>
+        </div>
 
 
 	<div class="container wrapper">
@@ -82,6 +81,7 @@
 		<div class="list-box">
             <!-- #BeginLibraryItem "/library/goods_list.lbi" --><!-- #EndLibraryItem -->
         </div>
+        
         <!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
 
 	</div>

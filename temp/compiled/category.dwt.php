@@ -27,8 +27,7 @@
 
 		<div class="wrapper">
 			<?php echo $this->fetch('library/ur_here.lbi'); ?>
-        
-</div>
+        </div>
 
 
 	<div class="container wrapper">
@@ -67,13 +66,13 @@
         </div></dl>
         <?php endif; ?>
 
-        <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_76862300_1471361589');if (count($_from)):
-    foreach ($_from AS $this->_var['filter_attr_0_76862300_1471361589']):
+        <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_86057800_1471416725');if (count($_from)):
+    foreach ($_from AS $this->_var['filter_attr_0_86057800_1471416725']):
 ?>
         <div class="f-line"><dl>
-            <dt class="fl-title fl-item"><?php echo htmlspecialchars($this->_var['filter_attr_0_76862300_1471361589']['filter_attr_name']); ?> :
+            <dt class="fl-title fl-item"><?php echo htmlspecialchars($this->_var['filter_attr_0_86057800_1471416725']['filter_attr_name']); ?> :
             </dt>
-            <?php $_from = $this->_var['filter_attr_0_76862300_1471361589']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
+            <?php $_from = $this->_var['filter_attr_0_86057800_1471416725']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
     foreach ($_from AS $this->_var['attr']):
 ?>
                 <?php if ($this->_var['attr']['selected']): ?>
@@ -91,6 +90,7 @@
 		<div class="list-box">
             <?php echo $this->fetch('library/goods_list.lbi'); ?>
         </div>
+        
         <?php echo $this->fetch('library/pages.lbi'); ?>
 
 	</div>

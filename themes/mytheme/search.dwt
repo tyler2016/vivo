@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+    <title>vivo</title>
+    <meta name="keywords" content='vivo智能手机官方商城'/>
+    <meta name="description" content='vivo智能手机官方商城'/>
+
+    <link href="css/01.css" rel="stylesheet" type="text/css"/>
+    <link href="css/02.css" rel="stylesheet" type="text/css"/>
+
+
+    <link href="css/05.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 9]>
+    <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
+    <![endif]-->
+
+</head>
+<body class="">
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div id="content" class="cl">
+    <input type="hidden" name="pageNavMappingIndex" id="pageNavMappingIndex" value="" />
+
+    <div class="wrapper">
+      <!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+    </div>
+
+
+  <div class="container wrapper">
+    <h2>搜索“{$search_keywords|escape}”的产品</h2>
+        <div class="list-box">
+            <ul class="prod-list cl">
+              <!--{foreach from=$goods_list item=goods}-->
+                <!-- {if $goods.goods_id} -->
+                 <li class="prod-item">
+                       <a target="_blank" href="{$goods.url}">
+                       <div class="figure">
+                       <img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" />
+                        </div>
+                        <h3 title="Y35L">{$goods.goods_name}</h3>
+                        <p class="price"><dfn>&yen;</dfn>
+                        <!--{if $goods.promote_price neq "" } -->
+                        {$goods.promote_price}
+                        <!--{else}-->
+                        {$goods.shop_price}
+                        <!--{/if}-->
+                        </p>
+                  </li>
+                <!--{/if}-->
+              <!--{/foreach}-->
+            </ul>
+        </div>
+
+    <!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
+
+  </div>
+</div>
+
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+
+
+<script>
+    var webCtx = "";
+    var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
+</script>
+<script src="js/01.js"></script>
+<script src="js/02.js"></script>
+<script src="js/03.js"></script>
+<script src="js/04.js"></script>
+<script src="js/05.js"></script>
+<script src="js/06.js"></script>
+    <script src="js/09.js"></script>
+
+<script>
+    //百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?0a38f90134ba281b974d46dfeec121e0";
+        hm.async = true;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

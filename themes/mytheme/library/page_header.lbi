@@ -1,7 +1,10 @@
 <header id="header">
     <div class="head-search">
         <div class="search-box">
-        	<form action="/product/search" method="get"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x6" /><a href="search.php?act=advanced_search"><button type="submit">搜索</button></a></form><a class="close"></a>
+            <form method="get" action="search.php" >
+                <input name="keywords" type="text" autocomplete="off" placeholder="如:x6" maxlength="20" value="{$search_keywords|escape}" /><button type="submit">搜索</button>
+            </form>
+            <a class="close"></a>
         </div>
     </div>
     <div class="wrapper">

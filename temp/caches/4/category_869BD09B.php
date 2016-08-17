@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:52:"D:/phpStudy/WWW/myecshop/themes/mytheme/category.dwt";i:1;s:63:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/page_header.lbi";i:2;s:59:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/ur_here.lbi";i:3;s:62:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/goods_list.lbi";i:4;s:57:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/pages.lbi";i:5;s:63:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/page_footer.lbi";}s:7:"expires";i:1471367988;s:8:"maketime";i:1471364388;}<!DOCTYPE HTML>
+<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:52:"D:/phpStudy/WWW/myecshop/themes/mytheme/category.dwt";i:1;s:63:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/page_header.lbi";i:2;s:59:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/ur_here.lbi";i:3;s:62:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/goods_list.lbi";i:4;s:57:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/pages.lbi";i:5;s:63:"D:/phpStudy/WWW/myecshop/themes/mytheme/library/page_footer.lbi";}s:7:"expires";i:1471420325;s:8:"maketime";i:1471416725;}<!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -20,7 +20,10 @@
 <header id="header">
     <div class="head-search">
         <div class="search-box">
-        	<form action="/product/search" method="get"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x6" /><button type="submit">搜索</button></form><a class="close"></a>
+            <form method="get" action="search.php" >
+                <input name="keywords" type="text" autocomplete="off" placeholder="如:x6" maxlength="20" value="" /><button type="submit">搜索</button>
+            </form>
+            <a class="close"></a>
         </div>
     </div>
     <div class="wrapper">
@@ -50,8 +53,7 @@
 		<input type="hidden" name="pageNavMappingIndex" id="pageNavMappingIndex" value="0" />
 		<div class="wrapper">
 			 
-<div class="crumbs">您的位置:<a class="first" href="/myecshop">首页</a><b></b><a href=".">首页</a> <code>&gt;</code> <a href="category.php?id=1">手机</a></div>        
-</div>
+<div class="crumbs">您的位置:<a class="first" href="/myecshop">首页</a><b></b><a href=".">首页</a> <code>&gt;</code> <a href="category.php?id=1">手机</a></div>        </div>
 	<div class="container wrapper">
             <div class="filter">
         
@@ -265,6 +267,7 @@
 </div>
 <div style="clear:both"></div>
         </div>
+        
         <nav class="pagination">
 <form name="selectPageForm" action="/myecshop/category.php" method="get">
  <div id="pager" class="pagebar">

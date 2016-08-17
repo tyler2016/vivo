@@ -249,7 +249,7 @@ else
     $_SESSION['display_search'] = $display;
 
     $page       = !empty($_REQUEST['page'])  && intval($_REQUEST['page'])  > 0 ? intval($_REQUEST['page'])  : 1;
-    $size       = !empty($_CFG['page_size']) && intval($_CFG['page_size']) > 0 ? intval($_CFG['page_size']) : 10;
+    $size       = !empty($_CFG['page_size']) && intval($_CFG['page_size']) > 0 ? intval($_CFG['page_size']) : 8;
 
     $intromode = '';    //方式，用于决定搜索结果页标题图片
 
